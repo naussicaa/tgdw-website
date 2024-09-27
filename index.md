@@ -18,7 +18,7 @@ Key challenges in this area include:
 
 The workshop aims to provide a platform for communities engaged with graph transformations and graph queries to share insights, ideas, and recent work. Topics of interest include, but are not limited to:
 
-## Graph Transformations and Querying
+# Graph Transformations and Querying
 - Graph transformations and querying methodologies
 - Human-centered and human-based approaches to graph transformations
 - Logical frameworks for graph transformations (e.g., rules, rewriting, algebra)
@@ -27,12 +27,12 @@ The workshop aims to provide a platform for communities engaged with graph trans
 - Applications of graph query languages for transformation specification
 - Optimization strategies for graph transformation and their relation to query optimization
 
-## Graph Changes and Evolution
+# Graph Changes and Evolution
 - Formalisms to describe changes in graph data
 - Dynamic graph data transformations
 - Continuous queries and streaming graph processing
 
-## Ecosystems for Graph Transformations
+# Ecosystems for Graph Transformations
 - Design and implementation of interoperability layers for graph data technologies
 - Ensuring reliable processing of graph data (verification and validation)
 - Scalable processing and querying of transformation-prone graph data
