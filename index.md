@@ -3,20 +3,40 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: 
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
-
 ![](assets/img/banner.jpg)
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+Graphs are increasingly utilized to represent and capture information about interconnected real-world entities. In response, a diverse landscape of graph database systems has emerged, designed to efficiently store, process, and analyze complex graph datasets. However, these systems often provide limited support for evolution mechanisms. As graph data becomes continuously and collaboratively curated, it is crucial to develop principled and practically tractable methods for defining and employing graph transformations and query languages.
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+Key challenges in this area include:
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+- **Practical Formalisms**: There is a lack of practical formalisms for describing graph transformations, as well as of appropriate syntactic and semantic primitives for capturing and querying various aspects of temporality, such as timeliness or versioning.
+- **Human-Centered Design**: Upholding human aspects of graph transformation ecosystems, e.g., interoperability, reliability, scalability, and learning requirements calls for the design of new models and techniques, as well as for further discussions on the role and use of recent generative AI methods in this setting. 
+
+The workshop aims to provide a platform for communities engaged with graph transformations and graph queries to share insights, ideas, and recent work. Topics of interest include, but are not limited to:
+
+## Graph Transformations and Querying
+- Graph transformations and querying methodologies
+- Human-centered and human-based approaches to graph transformations
+- Logical frameworks for graph transformations (e.g., rules, rewriting, algebra)
+- Generative AI (LLM) methods for graph transformation
+- Learning graph transformations (e.g., inductive learning, self-regulated learning)
+- Applications of graph query languages for transformation specification
+- Optimization strategies for graph transformation and their relation to query optimization
+
+## Graph Changes and Evolution
+- Formalisms to describe changes in graph data
+- Dynamic graph data transformations
+- Continuous queries and streaming graph processing
+
+## Ecosystems for Graph Transformations
+- Design and implementation of interoperability layers for graph data technologies
+- Ensuring reliable processing of graph data (verification and validation)
+- Scalable processing and querying of transformation-prone graph data
+- Human aspects of graph transformation ecosystems (usability, data integrity, quality)
+- Exploration of large, evolving graphs
+
+We invite contributions that address these topics and encourage innovative approaches that advance the field of graph transformations and queries.
